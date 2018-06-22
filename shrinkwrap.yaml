@@ -1,8 +1,10 @@
 dependencies:
+  '@pnpm/modules-yaml': 'link:../__package_previews__/modules-yaml/@pnpm/modules-yaml'
   load-yaml-file: 0.1.0
   write-yaml-file: 1.0.1
 devDependencies:
   '@types/tape': 4.2.32
+  '@types/tempy': 0.1.0
   mos: 2.0.0-alpha.3
   mos-plugin-readme: 1.0.4
   package-preview: 1.0.6
@@ -63,6 +65,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-xil0KO5wkPoixdBWGIGolPv9dekf6dVkjjJLAFYchfKcd4DICou67rgGCIO7wAh3i5Ff/6j9IDgZz+GU9cMaqQ==
+  /@types/tempy/0.1.0:
+    dev: true
+    resolution:
+      integrity: sha512-2qeSxI2bMucW58Jsj8jrBXZxobtcKkvO44AvJzKGaD8+m/3KRuBqeKitJ5U6sqy3a9tFsqhzsxMkqR4Wcl6AmQ==
   /@types/write-json-file/2.2.1:
     dev: true
     resolution:
@@ -3018,6 +3024,7 @@ shrinkwrapMinorVersion: 7
 shrinkwrapVersion: 3
 specifiers:
   '@types/tape': ^4.2.31
+  '@types/tempy': ^0.1.0
   load-yaml-file: ^0.1.0
   mos: ^2.0.0-alpha.3
   mos-plugin-readme: ^1.0.4
