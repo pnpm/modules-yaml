@@ -1,3 +1,5 @@
+> This package has been moved to the [pnpm](https://github.com/pnpm/pnpm) multi-package repository.
+
 # @pnpm/modules-yaml
 
 > Reads/writes \`node_modules/.modules.yaml\`
